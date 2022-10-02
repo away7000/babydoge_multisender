@@ -50,6 +50,12 @@ let getWeb3 = () => {
               explorerUrl = 'https://sokol.poaexplorer.com'
               console.log('This is Sokol', netId)
               break;
+            case "188881":
+              netIdName = 'Condor Testnet'
+              trustApiName = 'condor'
+              explorerUrl = 'http://96.30.194.234:4000'
+              console.log('This is Condor', netId)
+              break;
             default:
               netIdName = 'Unknown'
               console.log('This is an unknown network.', netId)
